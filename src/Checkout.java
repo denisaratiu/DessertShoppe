@@ -14,7 +14,9 @@ public class Checkout {
     private DessertItem[] desserts = new DessertItem[100];
 
     public Checkout() {
-
+        // initialize the variables 
+        this.numItems = numItems;
+        this.desserts = desserts;
     }
 
     public void enterItem(DessertItem item) {
